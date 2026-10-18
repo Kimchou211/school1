@@ -1,22 +1,27 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "reading-assessment-system",
-  "main": "src/worker.ts",
-  "compatibility_date": "2026-10-16",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api", "/api/*"]
-  },
-  "hyperdrive": [
-    {
-      "binding": "HYPERDRIVE",
-      "id": "77fa8828b4edb71086e716e10532ae55"
-    }
-  ],
-  "vars": {
-    "NODE_ENV": "production"
-  }
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "reading-assessment-system",
+	"main": "src/worker.ts",
+	"compatibility_date": "2026-10-16",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS",
+		"not_found_handling": "single-page-application",
+		"run_worker_first": [
+			"/api",
+			"/api/*"
+		]
+	},
+	"hyperdrive": [
+		{
+			"binding": "HYPERDRIVE",
+			"id": "513dab1e8345426f96913fef67cd28e1"
+		}
+	],
+	"vars": {
+		"NODE_ENV": "production"
+	}
 }

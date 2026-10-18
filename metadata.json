@@ -1,0 +1,6 @@
+{
+  "name": "ប្រព័ន្ធតាមដានការអានរបស់សិស្ស (Reading Assessment System)",
+  "description": "ប្រព័ន្ធតាមដាន និងវាយតម្លៃការអានរបស់សិស្សសម្រាប់គ្រូបង្រៀន គាំទ្រការសម្គាល់ពាក្យខុស រំលង ចេញរបាយការណ៍ ចំណាត់ថ្នាក់ និង Projector View",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

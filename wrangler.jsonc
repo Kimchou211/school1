@@ -1,6 +1,6 @@
 {
 	"$schema": "./node_modules/wrangler/config-schema.json",
-	"name": "reading-assessment-system",
+	"name": "school1",
 	"main": "src/worker.ts",
 	"compatibility_date": "2026-10-16",
 	"compatibility_flags": [
